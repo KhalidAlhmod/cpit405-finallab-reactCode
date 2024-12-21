@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import BookmarkForm from './components/BookmarkForm';
 import BookmarkList from './components/BookmarkList';
-
+import './App.css';
 const App = () => {
     const [refresh, setRefresh] = useState(false); // Used to trigger refresh in child components
 
